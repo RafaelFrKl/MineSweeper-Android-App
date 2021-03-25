@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Money Heist</string>
+    <string name="Introtext">Money Heist</string>
+    <string name="skip">Skip</string>
+    <string name="by_rafael_freire_kloecking">By Rafael Freire Kloecking</string>
+    <string name="play_game">Play Game!</string>
+    <string name="options">Options</string>
+    <string name="help">Help</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="settings">Settings</string>
+    <string name="mines">%1$d Bags of Money</string>
+    <string name="print_selected">Print Selected</string>
+    <string name="mines_number">Mines</string>
+    <string name="grid_size">%1$d Rows by %2$d Columns</string>
+    <string name="mines_left">%1$d of %2$d  Bags of Money Left</string>
+    <string name="scans_used">Scans Used: %1$d </string>
+    <string name="game_over">Game Over</string>
+    <string name="congratulations_you_won">Congratulations! You escaped with the cash!</string>
+    <string name="button">Button</string>
+    <string name="scanstext">TextView</string>
+    <string name="helptext">Help</string>
+    <string name="helpparagraph"> You’ve breached the National Bank of Spain. It’s now time to help your team find the bags
+        of money and get out as quickly as quickly as possible. Open up safes by pressing the buttons to try and find the cash.
+        While searching pick up clues along the way which will tell you how many bags are left in the row and column. Good luck
+        and may you not need to work a day more.
+
+        \n\nCreated by Rafael Freire Kloecking, a second year SFU computer science student
+        \n<a href="https://opencoursehub.cs.sfu.ca/bfraser/grav-cms/cmpt276/home">Course Website</a>
+
+        \n\n<a href="https://commons.wikimedia.org/wiki/Category:Money_bag_emoji">Money Bag Image</a>
+        \n<a href="https://i.pinimg.com/originals/ed/cd/70/edcd7026b8e698dfb1e2909d6f424d00.jpg">App Icon</a>
+        \n<a href="https://liquipedia.net/commons/images/0/05/R6S_map_bank.jpg">RB6 Background 1</a>
+        \n<a href="https://i.imgur.com/auPKnJt.jpg">RB6 Background 2</a>
+        \n<a href="https://www.artstation.com/artwork/0X6A6Y">Win Money</a>
+        \n<a href="https://www.teepublic.com/fr/art-mural/5710607-money-heist-mask">Play Button</a>
+
+    </string>
+</resources>

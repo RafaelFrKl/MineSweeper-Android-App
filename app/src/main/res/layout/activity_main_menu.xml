@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bank1"
+    tools:context=".MainMenu">
+
+    <Button
+        android:id="@+id/optionsbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/options"
+        android:textColor="#FFFFFF"
+        android:background="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/helpbtn"
+        app:layout_constraintStart_toStartOf="@+id/helpbtn" />
+
+    <Button
+        android:id="@+id/helpbtn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="536dp"
+        android:layout_marginBottom="56dp"
+        android:background="#000000"
+        android:shadowColor="#8B0000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/help"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/menutext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="276dp"
+        android:layout_marginTop="16dp"
+        android:shadowColor="#000000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/main_menu"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/playimagebtn"
+        android:layout_width="86dp"
+        android:layout_height="98dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/optionsbtn"
+        app:layout_constraintStart_toStartOf="@+id/optionsbtn"
+        app:srcCompat="@drawable/mask_button" />
+
+    <TextView
+        android:id="@+id/menutxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#000000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/play_game"
+        android:textColor="#FFFFFF"
+        android:textSize="21sp"
+        app:layout_constraintBottom_toBottomOf="@+id/playimagebtn"
+        app:layout_constraintEnd_toEndOf="@+id/optionsbtn"
+        app:layout_constraintTop_toTopOf="@+id/playimagebtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

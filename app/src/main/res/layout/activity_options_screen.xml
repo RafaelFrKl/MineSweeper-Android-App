@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bank"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsScreen">
+
+    <TextView
+        android:id="@+id/settingtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="344dp"
+        android:layout_marginTop="36dp"
+        android:shadowColor="#000000"
+        android:shadowDx="4.0"
+        android:shadowDy="3.0"
+        android:shadowRadius="1.0"
+        android:text="@string/settings"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_mine_size"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingtext" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_grid_size"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/radiogroup_mine_size"
+        app:layout_constraintStart_toEndOf="@+id/radiogroup_mine_size"
+        app:layout_constraintTop_toTopOf="@+id/radiogroup_mine_size" />
+</androidx.constraintlayout.widget.ConstraintLayout>
